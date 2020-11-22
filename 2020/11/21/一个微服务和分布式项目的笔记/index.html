@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="spring," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,17 +79,16 @@
 
 
 
-<meta name="description" content="What is Spring?Spring 的核心是一个 容器，通常称为 Spring 应用程序上下文，用于创建和管理应用程序组件。">
+<meta name="description" content="环境安装 安装virtualbox  安装vagrant, 通过vagrant init centos&#x2F;7 创建一个虚拟机 通过vagrant up 启动虚拟环境 通过vagrant ssh直接连上虚拟机 更改vagrantfile文件 主机虚拟机互相ping ip地址，看能否ping通  安装docker">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Some study notes about spring">
-<meta property="og:url" content="http://example.com/2020/11/09/Some-study-notes-about-spring/index.html">
+<meta property="og:title" content="一个微服务和分布式项目的笔记">
+<meta property="og:url" content="http://example.com/2020/11/21/%E4%B8%80%E4%B8%AA%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%92%8C%E5%88%86%E5%B8%83%E5%BC%8F%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Jie Tang&#39;s Blog">
-<meta property="og:description" content="What is Spring?Spring 的核心是一个 容器，通常称为 Spring 应用程序上下文，用于创建和管理应用程序组件。">
+<meta property="og:description" content="环境安装 安装virtualbox  安装vagrant, 通过vagrant init centos&#x2F;7 创建一个虚拟机 通过vagrant up 启动虚拟环境 通过vagrant ssh直接连上虚拟机 更改vagrantfile文件 主机虚拟机互相ping ip地址，看能否ping通  安装docker">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-11-09T20:04:27.000Z">
-<meta property="article:modified_time" content="2020-11-09T20:05:33.855Z">
+<meta property="article:published_time" content="2020-11-22T00:33:21.000Z">
+<meta property="article:modified_time" content="2020-11-22T00:36:59.266Z">
 <meta property="article:author" content="Jie Tang">
-<meta property="article:tag" content="spring">
 <meta name="twitter:card" content="summary">
 
 
@@ -120,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://example.com/2020/11/09/Some-study-notes-about-spring/"/>
+  <link rel="canonical" href="http://example.com/2020/11/21/一个微服务和分布式项目的笔记/"/>
 
 
 
 
 
-  <title>Some study notes about spring | Jie Tang's Blog</title>
+  <title>一个微服务和分布式项目的笔记 | Jie Tang's Blog</title>
   
 
 
@@ -233,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/09/Some-study-notes-about-spring/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/21/%E4%B8%80%E4%B8%AA%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%92%8C%E5%88%86%E5%B8%83%E5%BC%8F%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%AC%94%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -250,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Some study notes about spring</h1>
+          <h1 class="post-title" itemprop="name headline">一个微服务和分布式项目的笔记</h1>
         
 
         <div class="post-meta">
@@ -262,8 +261,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-11-09T15:04:27-05:00">
-                2020-11-09
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-11-21T19:33:21-05:00">
+                2020-11-21
               </time>
             
 
@@ -300,7 +299,18 @@
       
 
       
-        <h3 id="What-is-Spring"><a href="#What-is-Spring" class="headerlink" title="What is Spring?"></a>What is Spring?</h3><p>Spring 的核心是一个 <em>容器</em>，通常称为 <em>Spring 应用程序上下文</em>，用于创建和管理应用程序组件。</p>
+        <h5 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h5><ol>
+<li><p>安装virtualbox</p>
+</li>
+<li><p>安装vagrant, 通过vagrant init centos/7 创建一个虚拟机</p>
+<p>通过vagrant up 启动虚拟环境</p>
+<p>通过vagrant ssh直接连上虚拟机</p>
+<p>更改vagrantfile文件</p>
+<p>主机虚拟机互相ping ip地址，看能否ping通</p>
+</li>
+<li><p>安装docker</p>
+</li>
+</ol>
 
       
     </div>
@@ -316,12 +326,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/spring/" rel="tag"># spring</a>
-          
-        </div>
-      
 
       
       
@@ -331,8 +335,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/11/09/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2020/11/09/Some-study-notes-about-spring/" rel="next" title="Some study notes about spring">
+                <i class="fa fa-chevron-left"></i> Some study notes about spring
               </a>
             
           </div>
@@ -341,8 +345,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2020/11/21/%E4%B8%80%E4%B8%AA%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%92%8C%E5%88%86%E5%B8%83%E5%BC%8F%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%AC%94%E8%AE%B0/" rel="prev" title="一个微服务和分布式项目的笔记">
-                一个微服务和分布式项目的笔记 <i class="fa fa-chevron-right"></i>
+              <a href="/2020/11/21/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="prev" title="Android学习笔记">
+                Android学习笔记 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -488,7 +492,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#What-is-Spring"><span class="nav-number">1.</span> <span class="nav-text">What is Spring?</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85"><span class="nav-number">1.</span> <span class="nav-text">环境安装</span></a></li></ol></div>
             
 
           </div>
