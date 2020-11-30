@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="nosql," />
 
 
 
@@ -79,14 +79,17 @@
 
 
 
-<meta name="description" content="This is Jie&#39;s website for recording the footprint of learning">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jie Tang&#39;s Blog">
-<meta property="og:url" content="http://example.com/tags/spring/index.html">
+<meta name="description" content="为什么用nosqlnosql可以很好地处理数据爆发式增长的情况 什么是nosqlnosql: not only sql 泛指非关系型数据库 随着web2.0互联网的诞生，传统的关系型数据库很难对付2.0时代。 nosql特点 方便扩展（数据之间没有关系，很好扩展） 大数据高性能 数据类型多样性（不需要事先设计数据库，随取随用）  Redis">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux笔记">
+<meta property="og:url" content="http://example.com/2020/11/22/redis%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Jie Tang&#39;s Blog">
-<meta property="og:description" content="This is Jie&#39;s website for recording the footprint of learning">
+<meta property="og:description" content="为什么用nosqlnosql可以很好地处理数据爆发式增长的情况 什么是nosqlnosql: not only sql 泛指非关系型数据库 随着web2.0互联网的诞生，传统的关系型数据库很难对付2.0时代。 nosql特点 方便扩展（数据之间没有关系，很好扩展） 大数据高性能 数据类型多样性（不需要事先设计数据库，随取随用）  Redis">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-11-22T22:12:15.000Z">
+<meta property="article:modified_time" content="2020-11-23T02:42:47.502Z">
 <meta property="article:author" content="Jie Tang">
+<meta property="article:tag" content="nosql">
 <meta name="twitter:card" content="summary">
 
 
@@ -117,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://example.com/tags/spring/"/>
+  <link rel="canonical" href="http://example.com/2020/11/22/redis笔记/"/>
 
 
 
 
 
-  <title>Tag: spring | Jie Tang's Blog</title>
+  <title>Linux笔记 | Jie Tang's Blog</title>
   
 
 
@@ -142,7 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -216,54 +219,154 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>spring<small>Tag</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/22/redis%E7%AC%94%E8%AE%B0/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie Tang's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2020/11/09/Some-study-notes-about-spring/" itemprop="url">
-              
-                <span itemprop="name">Some study notes about spring</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Linux笔记</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-11-09T15:04:27-05:00"
-              content="2020-11-09" >
-          11-09
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-11-22T17:12:15-05:00">
+                2020-11-22
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
+      
 
+      
+        <h3 id="为什么用nosql"><a href="#为什么用nosql" class="headerlink" title="为什么用nosql"></a>为什么用nosql</h3><p>nosql可以很好地处理数据爆发式增长的情况</p>
+<h3 id="什么是nosql"><a href="#什么是nosql" class="headerlink" title="什么是nosql"></a>什么是nosql</h3><p>nosql: not only sql 泛指非关系型数据库</p>
+<p>随着web2.0互联网的诞生，传统的关系型数据库很难对付2.0时代。</p>
+<h3 id="nosql特点"><a href="#nosql特点" class="headerlink" title="nosql特点"></a>nosql特点</h3><ol>
+<li>方便扩展（数据之间没有关系，很好扩展）</li>
+<li>大数据高性能</li>
+<li>数据类型多样性（不需要事先设计数据库，随取随用）</li>
+</ol>
+<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/nosql/" rel="tag"># nosql</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/11/21/%E5%AD%A6%E4%B9%A0%E5%A4%9A%E7%BA%BF%E7%A8%8B%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E5%92%8C%E6%80%9D%E8%80%83/" rel="next" title="学习多线程过程中遇到的一些问题和思考">
+                <i class="fa fa-chevron-left"></i> 学习多线程过程中遇到的一些问题和思考
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -271,6 +374,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -291,8 +398,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -365,6 +481,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8nosql"><span class="nav-number">1.</span> <span class="nav-text">为什么用nosql</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFnosql"><span class="nav-number">2.</span> <span class="nav-text">什么是nosql</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#nosql%E7%89%B9%E7%82%B9"><span class="nav-number">3.</span> <span class="nav-text">nosql特点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Redis"><span class="nav-number">4.</span> <span class="nav-text">Redis</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -498,6 +630,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
